@@ -2,6 +2,16 @@
 name = "semver-macro"
 version = "0.1.0"
 edition = "2021"
+description = "A proc-macro for semver::Version"
+readme = "README.md"
+repository = "https://github.com/jgraef/semver-macro"
+license = "MIT"
+keywords = ["version", "semver", "macro"]
+categories = ["parsing"]
+
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
 
 [lib]
 proc-macro = true
