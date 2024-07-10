@@ -21,3 +21,4 @@ quote = "1"
 proc-macro-error = "1"
 semver = "1"
 syn = { version = "2", features = ["parsing"] }
+proc-macro2 = "1.0.86"
