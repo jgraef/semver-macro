@@ -4,7 +4,7 @@
 [![Documentation](https://docs.rs/semver-macro/badge.svg)](https://docs.rs/semver-macro)
 [![MIT License](https://img.shields.io/crates/l/semver-macro.svg)](./LICENSE)
 
-This crate contains a macros to parse [`semver::Version`][1]s at compile-time.
+This crate contains macros to parse [`semver::Version`][1]s at compile-time.
 Currently only versions without pre-release and build metadata identifier
 are supported.
 

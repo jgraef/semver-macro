@@ -1,6 +1,6 @@
 //! A proc-macro for [`semver::Version`]
 //!
-//! This crate contains a macros to parse [`semver::Version`]s at compile-time.
+//! This crate contains macros to parse [`semver::Version`]s at compile-time.
 //! Currently only versions without pre-release and build metadata identifier
 //! are supported.
 //!
